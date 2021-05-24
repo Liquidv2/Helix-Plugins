@@ -115,7 +115,9 @@ if (SERVER) then
         end
         
         --this, in combination with the switchweapons hook, should fix most major problems that would arise with the tp and weapons (if the check is enabled)
-        client:SelectWeapon(PLUGIN.defaultSwep) 
+        if ix.config.Get("WeaponCheck", true) then
+            client:SelectWeapon(PLUGIN.defaultSwep)
+        end
 
         if ix.config.Get("TeleportTime", 5) == (nil or 0) then
             TP()
