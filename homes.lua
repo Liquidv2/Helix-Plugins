@@ -61,6 +61,28 @@ ix.lang.AddTable("english", {
     TPWeapon = "Switched Weapon!",
     TPYourHomes = "Your Homes: %s",
 })
+--[CREDIT TO: MediQ#9657 - his GitHub: github.com/Niobiyd]--
+ix.lang.AddTable("russian", {
+    /*
+    --[You need to set these on the command itself]--
+    TPSetHome = "Устанавливает точку телепорта к вашему дому.",
+    TPDelHome = "Удаляет точку телепорта к вашему дому.",
+    TPHome = "Телепортирует вас к точке вашего дома.",
+    */
+    TPSuccess = "Вы успешно перенесенны к вашей точке: %s",
+    TPSuccessSet = "Вы успешно установили точку вашего дома: %s",
+    TPSuccessDel = "Вы успешно удалили точку вашего дома: %s",
+    TPSuccessDelAll = "Вы успешно удалили все точки ваших домов!",
+    TPInProgress = "Вы уже телепортируете!",
+    TPNoHome = "У вас нету активной точки телепорта: %s",
+    TPTime = "Телепортация в: %s",
+    TPLimit = "Лимит достигнут: %s",
+    TPCanceled = "Телепорт отменен: %s",
+    TPMoved = "Вы были передвижены!",
+    TPDamage = "Получен урон!",
+    TPWeapon = "Оружие переключено!",
+    TPYourHomes = "Ваши активные точки домов: %s",
+})
 
 -----[CONFIG STUFF]-----
 PLUGIN.defaultHome = "home"
