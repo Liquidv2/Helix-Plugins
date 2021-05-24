@@ -33,6 +33,13 @@ ix.lang.AddTable("english", {
     flagEdited = "%s has edited %s '%s' flags.", --For now unused, just left here for logs if someone wants to add them
     flagEditSuccess = "Sucessfully Edited Flags of Character: \"%s\".",
 })
+--[CREDIT TO: MediQ#9657 - his GitHub: github.com/Niobiyd]--
+ix.lang.AddTable("russian", {
+    editFlags = "Редактирование флагов.",
+    noFlagsEdited = "Нет флагов для редактирования!",
+    flagEdited = "%s Редактировал '%s' флаги.", --For now unused, just left here for logs if someone wants to add them
+    flagEditSuccess = "Флаги были успешно редактированны у персонажа: \"%s\".",
+})
 
 
 
