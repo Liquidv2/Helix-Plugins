@@ -5,7 +5,7 @@
 
 
 
-local PLUGIN = PLUGIN or {}
+PLUGIN = PLUGIN or {}
 
 PLUGIN.name = "Homes"
 PLUGIN.author = "Liquidv2"
